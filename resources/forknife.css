@@ -1,0 +1,230 @@
+/* All */
+
+window *,
+#dialog * {
+    font-family: Segoe UI;
+    font-size: 14px;
+    caret-color: #f3f7fd;
+}
+
+viewport > grid > label,
+viewport > list > row > label,
+viewport > grid > combobox,
+viewport > grid > combobox > box > button,
+viewport > grid > combobox > window > menu,
+viewport > grid > combobox > window > menu > menuitem:hover,
+stack > label,
+actionbar > revealer > box > button,
+actionbar > revealer > box > button > label,
+#dialog label,
+#readonly,
+entry {
+    color: #f3f7fd;
+}
+
+viewport > grid > label,
+viewport > list > row > label,
+viewport > grid > combobox,
+stack > label,
+actionbar > revealer > box > button,
+actionbar > revealer > box > button > label,
+entry,
+#dialog label {
+    font-weight: 600;
+}
+
+viewport > grid > combobox > box > button,
+viewport > grid > switch > slider,
+actionbar > revealer > box > button,
+actionbar > revealer > box > checkbutton > check,
+#dialog button {
+    background-image: none;
+}
+
+entry:selected,
+entry:active,
+entry:focus,
+entry:hover,
+entry:disabled,
+entry:visited,
+entry:indeterminate,
+entry:backdrop,
+viewport > grid > combobox > box > button,
+viewport > grid > switch > slider,
+actionbar > revealer > box > button,
+actionbar > revealer > box > checkbutton > check,
+#dialog button {
+    box-shadow: none;
+}
+
+viewport > list,
+stack > scrolledwindow > scrollbar,
+viewport > grid > combobox > box > button,
+stack > scrolledwindow > scrollbar,
+viewport > grid > switch,
+viewport > grid > switch > slider,
+actionbar > revealer > box,
+actionbar > revealer > box > checkbutton > check,
+#dialog button,
+#apply {
+    border: none;
+}
+
+viewport > grid > combobox > box > button,
+stack > scrolledwindow > scrollbar > contents > trough > slider,
+viewport > grid > switch,
+viewport > grid > switch > slider,
+actionbar > revealer > box > button,
+actionbar > revealer > box > checkbutton > check,
+viewport > grid > combobox > box > button,
+#dialog button {
+    border-radius: 0;
+}
+
+viewport > grid > combobox > box > button,
+entry,
+entry:selected,
+entry:active,
+entry:focus,
+entry:hover,
+entry:disabled,
+entry:visited,
+entry:indeterminate,
+entry:backdrop,
+viewport > grid > switch,
+viewport > grid > switch > slider,
+actionbar > revealer > box > checkbutton {
+    outline: none;
+}
+
+viewport > grid > combobox > box > button,
+actionbar > revealer > box > button,
+#dialog label {
+    text-shadow: none;
+}
+
+viewport > list > row:selected,
+stack > scrolledwindow > scrollbar > contents > trough > slider,
+viewport > grid > combobox > window > menu > menuitem:hover,
+stack > scrolledwindow > scrollbar > contents > trough > slider,
+viewport > grid > switch,
+viewport > grid > switch > slider,
+#apply,
+#dialog button {
+    background-color: #5628ee;
+}
+
+stack > scrolledwindow > scrollbar > contents > trough > slider:hover,
+#apply:hover,
+#dialog button:hover, {
+    background-color: #3d0fd5;
+}
+
+viewport > grid > combobox > box > button,
+stack > scrolledwindow > scrollbar,
+entry,
+viewport > grid > switch > image,
+#window,
+#dialog {
+    background-color: #121621;
+}
+
+stack,
+stack > scrolledwindow > scrollbar {
+    background-color: #171c28;
+}
+
+viewport > grid > label,
+#dialog label,
+#apply > label {
+    letter-spacing: .5px;
+}
+
+
+/* Settings */
+
+stack > scrolledwindow > scrollbar > contents > trough > slider {
+    padding: 1px;
+}
+
+stack > scrolledwindow > scrollbar {
+    padding: 2px;
+}
+
+viewport > grid {
+    margin: 15px 20px 30px 20px;
+}
+
+viewport > grid > combobox > box > button {
+    padding: 0 4px;
+}
+
+viewport > grid > combobox > box > button:focus {
+    box-shadow: 0px 0px 1px 1px #5628ee;
+}
+
+viewport > grid > combobox > box > button > box > arrow {
+    color: #5628ee;
+    -gtk-icon-shadow: none;
+}
+
+combobox > box > entry {
+    min-height: 10px;
+}
+
+viewport > grid > combobox > window > menu {
+    background-color: #1b202d;
+}
+
+entry {
+    padding: 5px;
+}
+
+entry:focus {
+    box-shadow: 0px 0px 1px 1px #5628ee;
+}
+
+viewport > grid > switch > image {
+    color: transparent;
+}
+
+viewport > grid > switch > image:nth-child(2) {
+    background-color: #5628ee;
+}
+
+viewport > grid > switch > slider {
+    margin: 0;
+    border-left: 2px solid #1b202d;
+}
+
+
+/* Action Bar */
+
+actionbar > revealer > box {
+    background-color: #1b202d;
+    padding: 15px 7px;
+}
+
+actionbar > revealer > box > button {
+    margin-left: 5px;
+    padding: 2px 38px;
+}
+
+actionbar > revealer > box > checkbutton {
+    margin-left: 10px;
+}
+
+actionbar > revealer > box > checkbutton > check {
+    color: #121621;
+    background-color: #f3f7fd;
+    padding-top: 1px;
+    padding-right: 3px;
+}
+
+actionbar > revealer > box > checkbutton > label {
+    margin-left: 2px;
+}
+
+#apply {
+    margin-right: 32px;
+}

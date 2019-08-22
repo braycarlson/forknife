@@ -1,0 +1,7 @@
+# forknife
+build/
+resources/fk.png
+resources/forknife.png
+*.zip
+*.ai
+*.ico
